@@ -6,15 +6,13 @@ import Layout from './pages/Layout';
 
 function App() {
     return (
-        <div classname="App">
-            <header className="App-header">
+        <div className="App">
             <Routes>
-                <Route className="App-link" path="/" element={<Layout />}>
-                <Route index element={<Home />} />
-                <Route path="*" element={<NoPage />} />
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="*" element={<NoPage />} />
                 </Route>             
             </Routes>
-            </header>
         </div>
     )
 }

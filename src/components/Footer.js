@@ -1,33 +1,100 @@
-import {NavLink} from 'react-router-dom'; 
+// import {NavLink} from 'react-router-dom'; 
 import "./Footer.css";
 
 function Footer() {
 
     return (
-    <div class="container-fluid mt-auto">
-        <div class="row">
-            <div class="col-sm">
-            <NavLink className="App-link" to="/">
-                Logo
-            </NavLink>
+    // <footer className="footer">
+    //     <div className="row">
+    //         <div className="col-sm">
+    //         <NavLink className="App-link" to="/">
+    //             Logo
+    //         </NavLink>
+    //         </div>
+    //         <div className="col-sm">
+    //         LinkedIn
+    //         </div>
+    //         <div className="col-sm">
+    //         Trailhead
+    //         </div>
+    //         <div className="col-sm">
+    //         Facebook
+    //         </div>
+    //         <div className="col-sm">
+    //         Email
+    //         </div>
+    //         <div className="col-sm">
+    //         Copyright
+    //         </div>
+    //     </div>
+    // </footer>
+    <footer className="bg-body-tertiary text-center">
+        <div className="container p-4">
+            <section className="">
+            <div className="row">
+                <div className="col">
+                <div data-mdb-ripple-init
+                    className="bg-image hover-overlay shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <div className="w-100">LinkedIn</div>
+                    <a href="#!">
+                    <div className="mask style1"></div>
+                    </a>
+                </div>
+                </div>
+
+                <div className="col">
+                <div data-mdb-ripple-init
+                    className="bg-image hover-overlay shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <div className="w-100">Email</div>
+                    <a href="#!">
+                    <div className="mask style1"></div>
+                    </a>
+                </div>
+                </div>
+
+                <div className="col">
+                <div data-mdb-ripple-init
+                    className="bg-image hover-overlay shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <div className="w-100">Facebook</div>
+                    <a href="#!">
+                    <div className="mask style1"></div>
+                    </a>
+                </div>
+                </div>
+
+                <div className="col">
+                <div data-mdb-ripple-init
+                    className="bg-image hover-overlay shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <div className="w-100">Trailhead</div>
+                    <a href="#!">
+                    <div className="mask style1"></div>
+                    </a>
+                </div>
+                </div>
+
+                <div className="col">
+                <div data-mdb-ripple-init
+                    className="bg-image hover-overlay shadow-1-strong rounded"
+                    data-ripple-color="light">
+                    <div className="w-100">Instagram?</div>
+                    <a href="#!">
+                    <div className="mask style1"></div>
+                    </a>
+                </div>
+                </div>
+
             </div>
-            <div class="col-sm">
-            LinkedIn
-            </div>
-            <div class="col-sm">
-            Trailhead
-            </div>
-            <div class="col-sm">
-            Facebook
-            </div>
-            <div class="col-sm">
-            Email
-            </div>
-            <div class="col-sm">
-            Copyright
-            </div>
+            </section>
         </div>
-    </div>
+
+        <div className="text-center p-3 bg-light">
+            © 2024 Copyright Charlese Muchmore
+        </div>
+        </footer>
     )
 }
 
