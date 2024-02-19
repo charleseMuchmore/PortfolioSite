@@ -1,10 +1,14 @@
-import {Link} from 'react-router-dom'; //add NavLink later
+// import {Link, NavLink} from 'react-router-dom'; 
+import {NavLink} from 'react-router-dom'; 
+import "./NavBar.css";
 
 function NavBar() {
 
     return (
     <div>
-        <Link to="/">My Blogging App</Link>
+        <NavLink className="App-link" to="/">
+            <h3>My Blogging App</h3>
+        </NavLink>
     </div>
     )
 }
