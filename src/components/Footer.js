@@ -4,24 +4,26 @@ import "./Footer.css";
 function Footer() {
 
     return (
-    <div className="footer">
-        <div className="footerLogo">
+    <div class="container-fluid mt-auto">
+        <div class="row">
+            <div class="col-sm">
             Logo
-        </div>
-        <div className="socialLinkIcon">
+            </div>
+            <div class="col-sm">
             LinkedIn
-        </div>
-        <div className="socialLinkIcon">
-            Email
-        </div>
-        <div className="socialLinkIcon">
+            </div>
+            <div class="col-sm">
             Trailhead
-        </div>
-        <div className="socialLinkIcon">
+            </div>
+            <div class="col-sm">
             Facebook
-        </div>
-        <div className="socialLinkIcon">
-            Instagram
+            </div>
+            <div class="col-sm">
+            Email
+            </div>
+            <div class="col-sm">
+            Copyright
+            </div>
         </div>
     </div>
     )
