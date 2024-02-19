@@ -1,97 +1,44 @@
-// import {NavLink} from 'react-router-dom'; 
 import "./Footer.css";
+import LinkedinImage from "../images/linkedin.png";
+import EmailImage from "../images/mail.png";
+import FacebookImage from "../images/facebook.png";
+import TrailheadImage from "../images/trailhead.png";
 
 function Footer() {
 
     return (
-    // <footer className="footer">
-    //     <div className="row">
-    //         <div className="col-sm">
-    //         <NavLink className="App-link" to="/">
-    //             Logo
-    //         </NavLink>
-    //         </div>
-    //         <div className="col-sm">
-    //         LinkedIn
-    //         </div>
-    //         <div className="col-sm">
-    //         Trailhead
-    //         </div>
-    //         <div className="col-sm">
-    //         Facebook
-    //         </div>
-    //         <div className="col-sm">
-    //         Email
-    //         </div>
-    //         <div className="col-sm">
-    //         Copyright
-    //         </div>
-    //     </div>
-    // </footer>
-    <footer className="bg-body-tertiary text-center">
-        <div className="container p-4">
-            <section className="">
+    <footer className="fixed-bottom">
+        <div className="container p-3">
             <div className="row">
+
                 <div className="col">
-                <div data-mdb-ripple-init
-                    className="bg-image hover-overlay shadow-1-strong rounded"
-                    data-ripple-color="light">
-                    <div className="w-100">LinkedIn</div>
-                    <a href="#!">
-                    <div className="mask style1"></div>
+                    <a href="https://www.linkedin.com/in/muchmorec/">
+                    <img alt="LinkedIn" src={LinkedinImage} className="socialLinkIcon"></img>
                     </a>
-                </div>
                 </div>
 
                 <div className="col">
-                <div data-mdb-ripple-init
-                    className="bg-image hover-overlay shadow-1-strong rounded"
-                    data-ripple-color="light">
-                    <div className="w-100">Email</div>
-                    <a href="#!">
-                    <div className="mask style1"></div>
+                    <a href="https://www.facebook.com/profile.php?id=100093591189476">
+                    <img alt="Facebook" src={FacebookImage} className="socialLinkIcon"></img>
                     </a>
-                </div>
                 </div>
 
                 <div className="col">
-                <div data-mdb-ripple-init
-                    className="bg-image hover-overlay shadow-1-strong rounded"
-                    data-ripple-color="light">
-                    <div className="w-100">Facebook</div>
-                    <a href="#!">
-                    <div className="mask style1"></div>
+                    <a href="https://www.salesforce.com/trailblazer/profile">
+                    <img alt="Trailhead" src={TrailheadImage} className="socialLinkIcon"></img>
                     </a>
-                </div>
                 </div>
 
                 <div className="col">
-                <div data-mdb-ripple-init
-                    className="bg-image hover-overlay shadow-1-strong rounded"
-                    data-ripple-color="light">
-                    <div className="w-100">Trailhead</div>
-                    <a href="#!">
-                    <div className="mask style1"></div>
+                    <a href="charlymuchmore@gmail.com">
+                    <img alt="Email" src={EmailImage} className="socialLinkIcon"></img>
                     </a>
-                </div>
-                </div>
-
-                <div className="col">
-                <div data-mdb-ripple-init
-                    className="bg-image hover-overlay shadow-1-strong rounded"
-                    data-ripple-color="light">
-                    <div className="w-100">Instagram?</div>
-                    <a href="#!">
-                    <div className="mask style1"></div>
-                    </a>
-                </div>
                 </div>
 
             </div>
-            </section>
         </div>
 
-        <div className="text-center p-3 bg-light">
+        <div className="text-center p-2 bg-light">
             © 2024 Copyright Charlese Muchmore
         </div>
         </footer>

@@ -1,7 +1,5 @@
 .socialLinkIcon {
-    display: inline;
-}
-
-.style1 {
-    background-color: rgba(251, 251, 251, 0.2);
+    width: 2.5rem;
+    border: black 1px solid;
+    border-radius: 25%;
 }
