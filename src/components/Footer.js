@@ -1,4 +1,4 @@
-// import {NavLink} from 'react-router-dom'; 
+import {NavLink} from 'react-router-dom'; 
 import "./Footer.css";
 
 function Footer() {
@@ -7,7 +7,9 @@ function Footer() {
     <div class="container-fluid mt-auto">
         <div class="row">
             <div class="col-sm">
-            Logo
+            <NavLink className="App-link" to="/">
+                Logo
+            </NavLink>
             </div>
             <div class="col-sm">
             LinkedIn
