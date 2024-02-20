@@ -7,8 +7,8 @@ import TrailheadImage from "../images/trailhead.png";
 function Footer() {
 
     return (
-    <footer className="fixed-bottom mx-s-1 mx-md-3 mx-lg-5 px-sm-1 px-md-3 px-lg-5">
-        <div className="container p-3">
+    <footer className="fixed-bottom">
+        <div className="container mx-s-1 mx-md-3 mx-lg-5 px-sm-1 px-md-3 px-lg-5">
             <div className="row">
                 <div className="col">
                     <a href="https://www.linkedin.com/in/muchmorec/">
@@ -31,6 +31,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
+        
         </div>
         <div className="text-center p-2 bg-light">
             © 2024 Copyright Charlese Muchmore
