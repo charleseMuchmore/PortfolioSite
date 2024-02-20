@@ -1,4 +1,20 @@
+.icon {
+    width: 2.5rem;
+    background: red;
+}
+
+.house {
+  width: 2rem;
+  height: 2rem;
+  background: url("../images/house.svg");
+  background-color: white;
+  background-blend-mode: normal;
+}
 
 .moon {
-    width: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  background: url("../images/moon.svg");
+  background-color: white;
+  background-blend-mode: normal;
 }
